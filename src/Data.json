@@ -1,54 +1,60 @@
 [
     {
+        "id": 1,
         "name": "Special Paneer Ghewar",
-        "price": "₹ 1,097.40 (GST)",
+        "price": "109.7",
         "img": [
             "https://lmbsweets.com/wp-content/uploads/2020/10/1.jpg",
             "https://lmbsweets.com/wp-content/uploads/2022/06/LMB-2-1-67-e1657889889767.jpg"
         ]
     },
     {
+        "id": 2,
         "name": "Artisanal Mithai Cake (JPR)",
-        "price": "₹ 1,396.50 (GST)",
+        "price": "1396.50",
         "img": [
             "https://lmbsweets.com/wp-content/uploads/2024/07/DSC03091.jpg",
             "https://lmbsweets.com/wp-content/uploads/2024/07/DSC03096.jpg"
         ]
     },
     {
+        "id": 3,
         "name": "Ghewar Phinni Combo",
-        "price": "₹ 2,887.50 (GST)",
+        "price": "887.50",
         "img": [
             "https://lmbsweets.com/wp-content/uploads/2024/07/DSC03037.jpg",
             "https://lmbsweets.com/wp-content/uploads/2024/07/DSC03051.jpg"
         ]
     },
     {
+        "id": 4,
         "name": "Pyaz Kachori",
-        "price": "₹ 319.20 (GST)",
+        "price": "319.20",
         "img": [
             "https://lmbsweets.com/wp-content/uploads/2021/02/59.jpg",
             "https://lmbsweets.com/wp-content/uploads/2021/07/pyaz-kachori.jpg"
         ]
     },
     {
+        "id": 5,
         "name": "Ghewar Phinni Platter",
-        "price": "₹ 2,688.00 (GST)",
+        "price": "288.00",
         "img": [
             "https://lmbsweets.com/wp-content/uploads/2022/07/LMB-2-1-48-600x600-1.jpg",
             "https://lmbsweets.com/wp-content/uploads/2022/07/LMB-2-1-49.jpg"
         ]
     },
     {
+        "id": 6,
         "name": "Party Samosa",
-        "price": "₹ 386.40 - ₹ 772.80 (GST)",
+        "price": "386.40",
         "img": [
             "https://lmbsweets.com/wp-content/uploads/2020/07/00.jpg",
             "https://lmbsweets.com/wp-content/uploads/2021/07/pyaz-kachori.jpg"
         ]
     },
-    
     {
+        "id": 7,
         "name": "Special Paneer Ghewar",
         "price": "₹ 997.50 - ₹ 1,995.00 (GST)",
         "img": [
@@ -57,379 +63,12 @@
         ]
     },
     {
+        "id": 8,
         "name": "Party Samosa",
         "price": "₹ 386.40 - ₹ 772.80 (GST)",
         "img": [
             "https://lmbsweets.com/wp-content/uploads/2020/07/00.jpg",
             "https://lmbsweets.com/wp-content/uploads/2020/07/00.jpg"
-        ]
-    },
-    {
-        "name": "Special Paneer Ghewar",
-        "price": "₹ 1,097.40 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/10/1.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2022/06/LMB-2-1-67-e1657889889767.jpg"
-        ]
-    },
-    {
-        "name": "Artisanal Mithai Cake (JPR)",
-        "price": "₹ 1,396.50 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2024/07/DSC03091.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2024/07/DSC03096.jpg"
-        ]
-    },
-    {
-        "name": "Ghewar Phinni Combo",
-        "price": "₹ 2,887.50 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2024/07/DSC03037.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2024/07/DSC03051.jpg"
-        ]
-    },
-    {
-        "name": "Pyaz Kachori",
-        "price": "₹ 319.20 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2021/02/59.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2021/07/pyaz-kachori.jpg"
-        ]
-    },
-    {
-        "name": "Ghewar Phinni Platter",
-        "price": "₹ 2,688.00 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2022/07/LMB-2-1-48-600x600-1.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2022/07/LMB-2-1-49.jpg"
-        ]
-    },
-    {
-        "name": "Party Samosa",
-        "price": "₹ 386.40 - ₹ 772.80 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/07/00.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2021/07/pyaz-kachori.jpg"
-        ]
-    },
-    
-    {
-        "name": "Special Paneer Ghewar",
-        "price": "₹ 997.50 - ₹ 1,995.00 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/07/11-1.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2022/01/LMB-Rendered-1-16-e1657891396248.jpg"
-        ]
-    },
-    {
-        "name": "Party Samosa",
-        "price": "₹ 386.40 - ₹ 772.80 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/07/00.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2020/07/00.jpg"
-        ]
-    },
-    {
-        "name": "Special Paneer Ghewar",
-        "price": "₹ 1,097.40 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/10/1.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2022/06/LMB-2-1-67-e1657889889767.jpg"
-        ]
-    },
-    {
-        "name": "Artisanal Mithai Cake (JPR)",
-        "price": "₹ 1,396.50 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2024/07/DSC03091.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2024/07/DSC03096.jpg"
-        ]
-    },
-    {
-        "name": "Ghewar Phinni Combo",
-        "price": "₹ 2,887.50 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2024/07/DSC03037.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2024/07/DSC03051.jpg"
-        ]
-    },
-    {
-        "name": "Pyaz Kachori",
-        "price": "₹ 319.20 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2021/02/59.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2021/07/pyaz-kachori.jpg"
-        ]
-    },
-    {
-        "name": "Ghewar Phinni Platter",
-        "price": "₹ 2,688.00 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2022/07/LMB-2-1-48-600x600-1.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2022/07/LMB-2-1-49.jpg"
-        ]
-    },
-    {
-        "name": "Party Samosa",
-        "price": "₹ 386.40 - ₹ 772.80 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/07/00.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2021/07/pyaz-kachori.jpg"
-        ]
-    },
-    
-    {
-        "name": "Special Paneer Ghewar",
-        "price": "₹ 997.50 - ₹ 1,995.00 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/07/11-1.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2022/01/LMB-Rendered-1-16-e1657891396248.jpg"
-        ]
-    },
-    {
-        "name": "Party Samosa",
-        "price": "₹ 386.40 - ₹ 772.80 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/07/00.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2020/07/00.jpg"
-        ]
-    },
-    {
-        "name": "Special Paneer Ghewar",
-        "price": "₹ 1,097.40 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/10/1.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2022/06/LMB-2-1-67-e1657889889767.jpg"
-        ]
-    },
-    {
-        "name": "Artisanal Mithai Cake (JPR)",
-        "price": "₹ 1,396.50 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2024/07/DSC03091.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2024/07/DSC03096.jpg"
-        ]
-    },
-    {
-        "name": "Ghewar Phinni Combo",
-        "price": "₹ 2,887.50 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2024/07/DSC03037.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2024/07/DSC03051.jpg"
-        ]
-    },
-    {
-        "name": "Pyaz Kachori",
-        "price": "₹ 319.20 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2021/02/59.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2021/07/pyaz-kachori.jpg"
-        ]
-    },
-    {
-        "name": "Ghewar Phinni Platter",
-        "price": "₹ 2,688.00 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2022/07/LMB-2-1-48-600x600-1.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2022/07/LMB-2-1-49.jpg"
-        ]
-    },
-    {
-        "name": "Party Samosa",
-        "price": "₹ 386.40 - ₹ 772.80 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/07/00.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2021/07/pyaz-kachori.jpg"
-        ]
-    },
-    
-    {
-        "name": "Special Paneer Ghewar",
-        "price": "₹ 997.50 - ₹ 1,995.00 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/07/11-1.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2022/01/LMB-Rendered-1-16-e1657891396248.jpg"
-        ]
-    },
-    {
-        "name": "Party Samosa",
-        "price": "₹ 386.40 - ₹ 772.80 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/07/00.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2020/07/00.jpg"
-        ]
-    },
-    {
-        "name": "Special Paneer Ghewar",
-        "price": "₹ 1,097.40 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/10/1.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2022/06/LMB-2-1-67-e1657889889767.jpg"
-        ]
-    },
-    {
-        "name": "Artisanal Mithai Cake (JPR)",
-        "price": "₹ 1,396.50 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2024/07/DSC03091.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2024/07/DSC03096.jpg"
-        ]
-    },
-    {
-        "name": "Ghewar Phinni Combo",
-        "price": "₹ 2,887.50 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2024/07/DSC03037.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2024/07/DSC03051.jpg"
-        ]
-    },
-    {
-        "name": "Pyaz Kachori",
-        "price": "₹ 319.20 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2021/02/59.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2021/07/pyaz-kachori.jpg"
-        ]
-    },
-    {
-        "name": "Ghewar Phinni Platter",
-        "price": "₹ 2,688.00 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2022/07/LMB-2-1-48-600x600-1.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2022/07/LMB-2-1-49.jpg"
-        ]
-    },
-    {
-        "name": "Party Samosa",
-        "price": "₹ 386.40 - ₹ 772.80 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/07/00.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2021/07/pyaz-kachori.jpg"
-        ]
-    },
-    
-    {
-        "name": "Special Paneer Ghewar",
-        "price": "₹ 997.50 - ₹ 1,995.00 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/07/11-1.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2022/01/LMB-Rendered-1-16-e1657891396248.jpg"
-        ]
-    },
-    {
-        "name": "Party Samosa",
-        "price": "₹ 386.40 - ₹ 772.80 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/07/00.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2020/07/00.jpg"
-        ]
-    },
-    {
-        "name": "Special Paneer Ghewar",
-        "price": "₹ 1,097.40 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/10/1.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2022/06/LMB-2-1-67-e1657889889767.jpg"
-        ]
-    },
-    {
-        "name": "Artisanal Mithai Cake (JPR)",
-        "price": "₹ 1,396.50 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2024/07/DSC03091.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2024/07/DSC03096.jpg"
-        ]
-    },
-    {
-        "name": "Ghewar Phinni Combo",
-        "price": "₹ 2,887.50 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2024/07/DSC03037.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2024/07/DSC03051.jpg"
-        ]
-    },
-    {
-        "name": "Pyaz Kachori",
-        "price": "₹ 319.20 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2021/02/59.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2021/07/pyaz-kachori.jpg"
-        ]
-    },
-    {
-        "name": "Ghewar Phinni Platter",
-        "price": "₹ 2,688.00 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2022/07/LMB-2-1-48-600x600-1.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2022/07/LMB-2-1-49.jpg"
-        ]
-    },
-    {
-        "name": "Party Samosa",
-        "price": "₹ 772.80 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/07/00.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2021/07/pyaz-kachori.jpg"
-        ]
-    },
-    
-    {
-        "name": "Special Paneer Ghewar",
-        "price": "₹ 997.50 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/07/11-1.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2022/01/LMB-Rendered-1-16-e1657891396248.jpg"
-        ]
-    },
-    {
-        "name": "Party Samosa",
-        "price": "₹ 386.40 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/07/00.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2020/07/00.jpg"
-        ]
-    },
-    {
-        "name": "Special Paneer Ghewar",
-        "price": "₹ 997.50 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/07/11-1.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2022/01/LMB-Rendered-1-16-e1657891396248.jpg"
-        ]
-    }, {
-        "name": "Special Paneer Ghewar",
-        "price": "₹ 997.50 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/07/11-1.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2022/01/LMB-Rendered-1-16-e1657891396248.jpg"
-        ]
-    }, {
-        "name": "Special Paneer Ghewar",
-        "price": "₹ 997.50 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/07/11-1.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2022/01/LMB-Rendered-1-16-e1657891396248.jpg"
-        ]
-    }, {
-        "name": "Special Paneer Ghewar",
-        "price": "₹ 997.50 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/07/11-1.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2022/01/LMB-Rendered-1-16-e1657891396248.jpg"
-        ]
-    }, {
-        "name": "Special Paneer Ghewar",
-        "price": "₹ 997.50 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/07/11-1.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2022/01/LMB-Rendered-1-16-e1657891396248.jpg"
-        ]
-    }, {
-        "name": "Special Paneer Ghewar",
-        "price": "₹ 997.50 (GST)",
-        "img": [
-            "https://lmbsweets.com/wp-content/uploads/2020/07/11-1.jpg",
-            "https://lmbsweets.com/wp-content/uploads/2022/01/LMB-Rendered-1-16-e1657891396248.jpg"
         ]
     }
 ]

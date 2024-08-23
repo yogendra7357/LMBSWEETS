@@ -1,27 +1,33 @@
 import React, { Component } from 'react';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
-import { Box, List, ListItem } from '@mui/material';
+import { Box, List, ListItem, Typography } from '@mui/material';
 import Data from '../../Data.json'; 
 
 interface Item {
+  id: number; 
   name: string;
-  img:string[];
-  price:string;
+  img: string[];
+  price: string;
+
 }
 
 interface SearchState {
   query: string;
-  searchItem: boolean;
   filteredItems: Item[];
+  someKey : boolean
 }
 
-export default class Search extends Component<{}, SearchState> {
-  constructor(props: {}) {
+interface SearchProps {
+  navigate: (path: string) => void; 
+}
+
+export default class Search extends Component<SearchProps, SearchState> {
+  constructor(props: SearchProps) {
     super(props);
     this.state = {
       query: '',
-      searchItem: false,
-      filteredItems: Data,  
+      filteredItems: Data, 
+      someKey : true 
     };
   }
 
@@ -30,29 +36,30 @@ export default class Search extends Component<{}, SearchState> {
     const filteredItems = Data.filter(item =>
       item.name.toLowerCase().includes(query)
     );
-   if(filteredItems && query ){
+
     this.setState({
       query,
-      filteredItems,
-      searchItem: true,
-    });}
-    else{
-        this.setState({
-            query,
-            filteredItems,
-            searchItem: false,
-          }); 
-    }
+      filteredItems
+      
+    });
+    this.setState({ someKey: true });
 
   };
 
+  handleItemClick = (id: number) => {
+    this.props.navigate(`/product/${id}`);
+    this.setState({ someKey: false });
+    
+  };
+
   render() {
-    const { query, filteredItems, searchItem } = this.state;
+    const { query, filteredItems ,someKey} = this.state;
 
     return (
       <Box style={{ position: 'relative', width: '18rem' }}>
         <Box style={{ position: 'relative' }}>
           <input
+            aria-label="Search for products"
             placeholder="Search for products"
             value={query}
             onChange={this.handleChange}
@@ -68,32 +75,32 @@ export default class Search extends Component<{}, SearchState> {
               fontSize: '16px'
             }}
           />
-          <SearchOutlinedIcon style={{ position: 'absolute', right:6, top:10, color: 'gray', fontSize: '30px' }} />
+          <SearchOutlinedIcon style={{ position: 'absolute', right: 6, top: 10, color: 'gray', fontSize: '30px' }} />
         </Box>
 
+        <List style={{ marginTop: '10px', marginLeft: '15px', maxHeight: '280px', width: '15rem', overflowY: 'auto', padding: 0 }}>
+          { query.length > 0 && filteredItems.length > 0 ? (
 
-      
-        <List style={{ marginTop: '10px', marginLeft: '15px', maxHeight: '280px',width:'15rem', overflowY: 'auto', padding: 0 }}>
-          {searchItem && filteredItems.length > 3 ? (
-            filteredItems.map((item, index) => (<>
-              <ListItem key={index} style={{ padding: '10px 20px', borderBottom: '1px',background:'white' }}>
+           someKey && filteredItems.map((item) => (
+              <ListItem 
+                key={item.id}
+                style={{ padding: '10px 20px', borderBottom: '1px solid #d3d3d3', background: 'white', cursor: 'pointer' }}
+                onClick={() => this.handleItemClick(item.id)}
+              >
                 <img 
-                src={item.img[0]} 
-                alt={item.name} 
-                style={{width:'50px',height:'50px',}}/> 
-
-              <Box>
-             <ListItem style={{ padding: '0px 10px',background:'white', color: 'gray',}}>{item.name}</ListItem>
-             <ListItem style={{ padding: '0px 10px',background:'white',fontStyle:'bold',color: '#465352',}}>{item.price}</ListItem>
-              </Box>
-
+                  src={item.img[0]} 
+                  alt={item.name} 
+                  style={{ width: '50px', height: '50px', marginRight: '10px' }} 
+                />
+                <Box>
+                  <Typography variant="body1" style={{ color: 'gray' }}>{item.name}</Typography>
+                  <Typography variant="body2" style={{ fontWeight: 'bold', color: '#465352' }}>{item.price}</Typography>
+                </Box>
               </ListItem>
-              </>))
-          ) : (
-            query.length > 3 && !searchItem ? (
-              <ListItem>No items found</ListItem>
-            ) : null
-          )}
+            ))
+          ) : query.length > 0 ? (
+            <ListItem sx={{backgroundColor:'white'}}>No items found</ListItem>
+          ) : null}
         </List>
       </Box>
     );

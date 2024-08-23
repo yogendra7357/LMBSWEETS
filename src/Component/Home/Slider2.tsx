@@ -94,10 +94,11 @@ export default class Slider2 extends Component<{}, SliderState> {
 
   startSlideShow = () => {
     this.slideInterval = setInterval(() => {
-      this.setState(prevState => {
+      const {currentIndex} = this.state
+        if(Data.length == currentIndex) {this.setState(prevState => {
         const nextIndex = (prevState.currentIndex + 1) % Data.length;
         return { currentIndex: nextIndex };
-      });
+      });}
     }, 6000); 
   };
 
